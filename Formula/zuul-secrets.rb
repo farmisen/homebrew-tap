@@ -1,25 +1,25 @@
 class ZuulSecrets < Formula
   desc "CLI tool for managing secrets across multiple environments, backed by pluggable cloud secret managers"
   homepage "https://github.com/farmisen/zuul"
-  version "0.1.0"
+  version "0.1.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/farmisen/zuul/releases/download/v0.1.0/zuul-secrets-aarch64-apple-darwin.tar.xz"
-      sha256 "c242f41d5a0edb86d375b9a41ce6764e780c6afc238ed599f8bab4635d12121b"
+      url "https://github.com/farmisen/zuul/releases/download/v0.1.1/zuul-secrets-aarch64-apple-darwin.tar.xz"
+      sha256 "0bfc34a24d84540ad35f6965dedff137294e8b3560cc4d01f8ccb29a81b7c1d0"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/farmisen/zuul/releases/download/v0.1.0/zuul-secrets-x86_64-apple-darwin.tar.xz"
-      sha256 "4d7437cb52a72a3b305f9af742357249b2c82693e2c6d51766efba08690b9895"
+      url "https://github.com/farmisen/zuul/releases/download/v0.1.1/zuul-secrets-x86_64-apple-darwin.tar.xz"
+      sha256 "b410556a92611090324168b51872620aba10ded82e4b9e48a5f2d97c8b2a16ad"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/farmisen/zuul/releases/download/v0.1.0/zuul-secrets-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "eddd34b5b5b5f29981b4b423b60cdef93aebba5af4f7c4037aa5fe70930bc27b"
+      url "https://github.com/farmisen/zuul/releases/download/v0.1.1/zuul-secrets-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "165264a5b9eb5491bcadd8607e918961a747116bd67e1e44fc2bf6c7336fa05c"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/farmisen/zuul/releases/download/v0.1.0/zuul-secrets-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "b3e8461d7008a888bd6d5725830e78cc9b825b50278bb4923af0da4498bcc78f"
+      url "https://github.com/farmisen/zuul/releases/download/v0.1.1/zuul-secrets-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "794982840142455bbc1a973c2e667efff388aaea4ba7fa7ece7bee8f60728e65"
     end
   end
   license "MIT"
