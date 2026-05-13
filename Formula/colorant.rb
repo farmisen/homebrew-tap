@@ -1,15 +1,15 @@
 class Colorant < Formula
   desc "Per-directory terminal theme switcher with system dark/light mode support"
   homepage "https://github.com/farmisen/colorant"
-  version "0.1.0"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/farmisen/colorant/releases/download/v0.1.0/colorant-aarch64-apple-darwin.tar.xz"
-      sha256 "bb1c84aca3a1411de02d1177d542bf0027a5a069e7b02d9f74f94ac714b373d3"
+      url "https://github.com/farmisen/colorant/releases/download/v0.2.0/colorant-aarch64-apple-darwin.tar.xz"
+      sha256 "d52843ca4389d62ce651afdf948a3611656263dea226ccf15f8ad35b6839e6cb"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/farmisen/colorant/releases/download/v0.1.0/colorant-x86_64-apple-darwin.tar.xz"
-      sha256 "8d41a804960945cea0ed55cc7ce9d11347ca07c5616f95588395e0c8ae7955a8"
+      url "https://github.com/farmisen/colorant/releases/download/v0.2.0/colorant-x86_64-apple-darwin.tar.xz"
+      sha256 "bf5248ec3b033a64512220c33a6aa9458bbdf53a63ce065128ab3840b6d1f4f7"
     end
   end
   license "MIT"
